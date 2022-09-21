@@ -42,9 +42,7 @@ interface RestApiInterface {
     fun getLoans(): Call<MutableList<LoanEntity>>
 
     companion object {
-        private const val DEBUG_HOST = "192.168.0.155"
-        private val host: String
-            get() = if (BuildConfig.BUILD_TYPE == "debug") DEBUG_HOST else BuildConfig.HOST
+        private const val host: String = BuildConfig.HOST
         val httpUrl: String
             get() {
                 val httpUrl = HttpUrl.Builder()
