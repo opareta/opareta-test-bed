@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".ui.loans.fragments.LoanApplicationFragmentThree">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="108dp"
+        app:srcCompat="@drawable/ic_application_received"
+        android:layout_height="108dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/request_complete"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:textSize="24sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:fontFamily="@font/averta_semibold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="@string/post_loan_request_content" />
+
+    <Button
+        android:id="@+id/proceed_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/float_button"
+        android:enabled="true"
+        android:fontFamily="@font/opareta"
+        android:padding="30dp"
+        android:text="@string/finish"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

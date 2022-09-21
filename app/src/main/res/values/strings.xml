@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Opareta Testbed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loan_page_description_1">Please provide the amount you wish to borrow and select the payback period.</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="payback_period">Payback Period</string>
+    <string name="request_loan">Request Loan</string>
+    <string name="request_float_loan">Request Float Loan</string>
+    <string name="complete_your_profile">Complete your profile</string>
+    <string name="incomplete_kyc_loan_request_message">In order to request a loan, you need to fill in your profile</string>
+    <string name="later">Later</string>
+    <string name="complete_now">Complete now</string>
+    <string name="loan_page_description_2">Please confirm that you have requested a loan with the following terms</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="loan_period">Loan Period</string>
+    <string name="application_date">Appication Date</string>
+    <string name="weekly_payments">Weekly Payments</string>
+    <string name="weekly_amount">Weekly Amount</string>
+    <string name="confirm_request">Confirm Request</string>
+    <string name="request_complete">Request Complete</string>
+    <string name="post_loan_request_content">We have received your loan request and will get back to you shortly. Thank you!</string>
+    <string name="finish">Finish</string>
+    <string name="loan_request">Loan Request</string>
+</resources>

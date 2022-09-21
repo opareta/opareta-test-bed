@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mcleroy.oparetatestbed">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Opareta"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/OparetaTheme"
+        tools:replace="android:allowBackup">
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity android:name=".ui.loans.LoanApplicationActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.hover.ApiKey"
+            android:value="def7c0a243887b4c7e2d523a56017d2a" />
+    </application>
+
+</manifest>

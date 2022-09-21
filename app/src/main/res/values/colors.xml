@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorSecondary">#277fd6</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorAccent">#0A0201</color>
+    <color name="errorColor">#DB4B4B</color>
+    <color name="green">#21ce99</color>
+    <color name="grey">#69678c</color>
+    <color name='dark_grey'>#474d66</color>
+    <color name='lightGreen'>#e7f8f3</color>
+    <color name="darkGreen">#429777</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="divider">#FEA91D</color>
+    <color name="light_grey">#d8d8d8</color>
+    <color name="medium_grey">#a7aaac</color>
+    <color name="light_brown">#f5f7fa</color>
+    <color name="mtn">#ffcc00</color>
+    <color name="airtel">#e40001</color>
+    <color name="text">#464646</color>
+    <color name="mildly_black">#2a2a2a</color>
+    <!--the bg color of the cancel button in the Hover PIN activity-->
+    <color name="colorTextHint">#ffffff</color>
+    <!--secure with Opareta security text color-->
+    <color name="colorHoverWhite">@color/mildly_black</color>
+
+    <color name="disabled">#4F000000</color>
+    <color name="pending">#ffcc00</color>
+    <color name="success">#21ce99</color>
+    <color name="error">#e40001</color>
+    <color name="button_color_bg">#EBFFF9</color>
+    <color name="card_bg_color">#F2F5FD</color>
+</resources>

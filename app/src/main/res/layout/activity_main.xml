@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Opareta"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".ui.MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/request_loan_btn"
+        app:strokeColor="@color/green"
+        app:strokeWidth="1dp"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        app:cornerRadius="0dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:enabled="true"
+        android:fontFamily="@font/opareta"
+        android:padding="30dp"
+        android:text="@string/request_float_loan"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"/>
+
+</FrameLayout>
